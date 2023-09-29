@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className='mb-5'>
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div className='mb-5' style={{marginTop:'90px'}}>
+            <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">Gallary</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
